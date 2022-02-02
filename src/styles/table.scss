@@ -1,0 +1,28 @@
+.table-responsive{
+    .summary{
+        font: normal normal 600 13px/16px 'Mulish';
+    }
+    .table{
+        thead{
+            font: normal normal 600 15px/19px 'Mulish';
+        }
+        tbody{
+            font: normal normal normal 16px/20px 'Mulish';
+            .servers{
+                color: #499DFF;
+            }
+        }
+    }
+}
+.sign{
+    width: 20px;
+    height: 20px;
+}
+.more{
+    div{
+    margin-top: 10px;
+    p{
+        line-height: 0.4ch;
+    }
+    }
+}

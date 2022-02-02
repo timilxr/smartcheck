@@ -1,0 +1,74 @@
+#header {
+  width: 100%;
+  #top {
+    background-color: #1b1464;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    img {
+      width: 190px;
+      height: 40px;
+    }
+  }
+  #bottom {
+    background-color: #ffffff;
+    min-height: 80px;
+    // padding: 20px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 1px 2px #4d4c4c29;
+    border-radius: 4px;
+    opacity: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    // justify-content: space-between;
+    // align-items: center;
+    #header-nav {
+      color: #1b1464;
+      width: 100%;
+      padding: 0;
+      @media screen and (max-width: 768px) {
+        height: 100%;
+    }
+      .collapse {
+        height: 100%;
+        // background-color: violet;
+        .navbar-nav {
+          height: 100%;
+        }
+      }
+      font: 20px "Mulish";
+      letter-spacing: 0px;
+      .nav-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        height: 100%;
+        p {
+          margin: 0ch;
+        }
+        .nav-icons {
+          color: #1b1464;
+          margin-right: 5px;
+          width: 19px;
+        }
+      }
+      .active {
+        border-bottom: 6px solid #49d3ff;
+        height: 100%;
+      }
+    }
+    #health-button {
+      background-color: #49d3ff;
+      box-shadow: 0px 1px 2px #00000029;
+      border: 0;
+      border-radius: 4px;
+      font: normal normal 600 20px/25px 'Mulish';
+      // width: 200px;
+      padding: 10px;
+      outline: none;
+      color: #1b1464;
+    }
+  }
+}

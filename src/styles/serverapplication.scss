@@ -1,0 +1,58 @@
+.container-body{
+    width: 94%;
+    margin: 40px auto;
+    .home-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info-container{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 2px #00000029;
+        padding: 60px;
+        @media screen and (max-width: 576px) {
+            padding: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            padding: 23px;
+        }
+        form{
+            width: 70%;
+            @media screen and (max-width: 576px) {
+                width: 100%;
+            }
+            .search{
+                width: 40%;
+                @media screen and (max-width: 576px) {
+                    width: 100%;
+                }
+                .search-input{
+                    background-color: rgb(236, 235, 235);
+                    font-size: 12px;
+                    height: 40px;
+                }
+            }
+            .btn-group{
+                width: 19%;
+                @media screen and (max-width: 992px) {
+                    width: 28%;
+                }
+                @media screen and (max-width: 576px) {
+                    width: 100%;
+                }
+                select{
+                    height: 40px;
+                    padding: 5px;
+                    font-size: 12px;
+                    background-color: #FFFFFF;
+border: 0.5px solid #525757;
+border-radius: 3px;
+                }
+            }
+        }
+        .table-holder{
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #D3D3D3;
+width: 100%;
+        }
+    }
+}
