@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Excluded Route
+
+### `/griphy`
+
+This is the link to the griphy API implementation
+
 ## Available Scripts
 
 In the project directory, you can run:
